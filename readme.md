@@ -19,4 +19,6 @@ Exercises for preparing exam in Go language
 4. - [Wdmatch](https://github.com/01-edu/public/tree/master/subjects/wdmatch)
 
 ### 3 (easy)
-1. - [firstRune](https://github.com/01-edu/public/tree/master/subjects/countdown)
+1. - [FirstRune](https://github.com/01-edu/public/tree/master/subjects/countdown)
+3. - [LastRune] We need found solution
+2. - [Rot13]
