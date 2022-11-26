@@ -23,4 +23,5 @@ Exercises for preparing exam in Go language
 2. - [LastRune] We need found solution
 3. - [Rot13](https://github.com/01-edu/public/tree/master/subjects/rot13)
 4. - [Lastword](https://github.com/01-edu/public/tree/master/subjects/lastword)
-5. - []()
+5. - [Reduceint](https://github.com/01-edu/public/tree/master/subjects/reduceint)
+6. - []()
