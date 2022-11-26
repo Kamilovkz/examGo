@@ -10,3 +10,7 @@ Exercises for preparing exam in Go language
 4. - [Paramcount](https://github.com/01-edu/public/tree/master/subjects/paramcount)
 5. - [Displayalrevm](https://github.com/01-edu/public/tree/master/subjects/displayalrevm)
 6. - [Displayalpham](https://github.com/01-edu/public/tree/master/subjects/displayalpham)
+7. - [Printdigits](https://github.com/01-edu/public/tree/master/subjects/printdigits)
+
+### 2 (easy)
+1. - [Countdown](https://github.com/01-edu/public/tree/master/subjects/countdown)
