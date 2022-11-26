@@ -7,4 +7,4 @@ Exercises for preparing exam in Go language
 1. - [Displayfirstparam](https://github.com/01-edu/public/tree/master/subjects/displayfirstparam)
 2. - [Displaylastparam](https://github.com/01-edu/public/tree/master/subjects/displaylastparam)
 3. - [Hello](https://github.com/01-edu/public/tree/master/subjects/hello)
-4. - []
+4. - [Paramcount](https://github.com/01-edu/public/tree/master/subjects/paramcount)
