@@ -10,8 +10,8 @@ func main() {
 	if len(os.Args) == 1 {
 		return
 	}
-	f := os.Args[1]
-	for _, word := range f {
+	sentence := os.Args[len(os.Args)-1]
+	for _, word := range sentence {
 		z01.PrintRune(word)
 	}
 	z01.PrintRune(10)
