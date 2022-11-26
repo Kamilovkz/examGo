@@ -14,3 +14,6 @@ Exercises for preparing exam in Go language
 
 ### 2 (easy)
 1. - [Countdown](https://github.com/01-edu/public/tree/master/subjects/countdown)
+2. - [Strlen](https://github.com/01-edu/public/tree/master/subjects/strlen)
+3. - []
+4. - []
