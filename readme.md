@@ -31,3 +31,4 @@ Exercises for preparing exam in Go language
 3. - [Tabmult](https://github.com/01-edu/public/tree/master/subjects/tabmult)
 4. - [Alphamirror](https://github.com/01-edu/public/tree/master/subjects/alphamirror)
 5. - [Compare](https://github.com/01-edu/public/tree/master/subjects/compare)
+6. - [Findprevprime](https://github.com/01-edu/public/tree/master/subjects/findprevprime)
