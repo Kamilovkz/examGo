@@ -26,4 +26,7 @@ Exercises for preparing exam in Go language
 5. - [Reduceint](https://github.com/01-edu/public/tree/master/subjects/reduceint)
 
 ### 4 (middle)
-6. - [Сhunk](https://github.com/01-edu/public/tree/master/subjects/chunk)
+1. - [Сhunk](https://github.com/01-edu/public/tree/master/subjects/chunk)
+2. - [Searchreplace](https://github.com/01-edu/public/tree/master/subjects/searchreplace)
+3. - [Tabmult](https://github.com/01-edu/public/tree/master/subjects/tabmult)
+4. - []()
