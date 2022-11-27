@@ -12,5 +12,7 @@ func main() {
 }
 
 func FirstRune(s string) rune {
-	return rune(s[len(s)-1])
+	word := []rune(s)
+	first := word[0]
+	return first
 }
