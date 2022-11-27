@@ -30,4 +30,4 @@ Exercises for preparing exam in Go language
 2. - [Searchreplace](https://github.com/01-edu/public/tree/master/subjects/searchreplace)
 3. - [Tabmult](https://github.com/01-edu/public/tree/master/subjects/tabmult)
 4. - [Alphamirror](https://github.com/01-edu/public/tree/master/subjects/alphamirror)
-5. - []()
+5. - [Compare](https://github.com/01-edu/public/tree/master/subjects/compare)
