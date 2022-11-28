@@ -34,4 +34,7 @@ Exercises for preparing exam in Go language
 6. - [Doop] Not solved
 7. - [Findprevprime](https://github.com/01-edu/public/tree/master/subjects/findprevprime)
 8. - [Foldint](https://github.com/01-edu/public/tree/master/subjects/foldint)
-9. - 
+
+### 5 (middle)
+1. - [Romannumbers]()
+2. - []()
