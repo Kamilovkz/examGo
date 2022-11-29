@@ -38,4 +38,5 @@ Exercises for preparing exam in Go language
 ### 5 (middle)
 1. - [Romannumbers](https://github.com/01-edu/public/tree/master/subjects/romannumbers)
 2. - [Ispowerof2](https://github.com/01-edu/public/tree/master/subjects/ispowerof2) Not solved
-3. - []()
+3. - [Union](https://github.com/01-edu/public/tree/master/subjects/union)
+4. - []()
