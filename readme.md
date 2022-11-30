@@ -46,4 +46,5 @@ Exercises for preparing exam in Go language
 ### 6 (middle)
 1. - [Repeatalpha](https://github.com/01-edu/public/tree/master/subjects/repeatalpha) Not finished
 2. - [Sortwordarr](https://github.com/01-edu/public/tree/master/subjects/sortwordarr)
-3. - []
+3. - [Printhex](https://github.com/01-edu/public/tree/master/subjects/printhex)
+4. - []()
