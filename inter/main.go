@@ -21,13 +21,12 @@ func main() {
 	for _, word := range result {
 		z01.PrintRune(word)
 	}
-	z01.PrintRune(10)
-
+	z01.PrintRune('\n')
 }
 
 func double(s string, r rune) bool {
-	for _, i := range s {
-		if i == r {
+	for _, word := range s {
+		if word == r {
 			return true
 		}
 	}
