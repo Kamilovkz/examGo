@@ -44,10 +44,11 @@ Exercises for preparing exam in Go language
 6. - []()
 
 ### 6 (middle)
-1. - [Repeatalpha](https://github.com/01-edu/public/tree/master/subjects/repeatalpha) Not finished
+1. - [Repeatalpha](https://github.com/01-edu/public/tree/master/subjects/repeatalpha)
 2. - [Sortwordarr](https://github.com/01-edu/public/tree/master/subjects/sortwordarr)
 3. - [Printhex](https://github.com/01-edu/public/tree/master/subjects/printhex)
 4. - [GCD](https://github.com/01-edu/public/tree/master/subjects/gcd)
 
 ### 7 (hard)
-1. - []()
+1. - [Hiddenp](https://github.com/01-edu/public/tree/master/subjects/hiddenp)
+2. - []()
