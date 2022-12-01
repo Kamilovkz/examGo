@@ -10,11 +10,11 @@ func main() {
 	if len(os.Args) != 2 {
 		return
 	}
-	s := os.Args[1]
 	alpha1 := " abcdefghijklmnopqrstuvwxyz"
 	alpha2 := " ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
+	s := os.Args[1]
 	var count int
+
 	for _, r := range s {
 		for i := range alpha1 {
 			if r == rune(alpha1[i]) {
@@ -34,5 +34,5 @@ func main() {
 			z01.PrintRune(r)
 		}
 	}
-	z01.PrintRune(10)
+	z01.PrintRune('\n')
 }
