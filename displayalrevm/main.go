@@ -5,9 +5,14 @@ import (
 )
 
 func main() {
-	sentence := "zYxWvUtSrQpOnMlKjIhGfEdCbA"
-	for _, i := range sentence {
-		z01.PrintRune(i)
+	s := 'Z'
+	for i := 'z'; i > 'a'; i-- {
+		if i%2 == 0 {
+			z01.PrintRune(i)
+		} else {
+			z01.PrintRune(s)
+		}
+		s--
 	}
-	z01.PrintRune(10)
+	z01.PrintRune('\n')
 }
