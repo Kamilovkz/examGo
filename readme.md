@@ -20,7 +20,7 @@ Exercises for preparing exam in Go language
 
 ### 3 (easy)
 1. - [FirstRune](https://github.com/01-edu/public/tree/master/subjects/countdown)
-2. - [LastRune] We need found solution
+2. - [LastRune](https://learn.01founders.co/git/root/public/src/branch/master/subjects/lastrune)
 3. - [Rot13](https://github.com/01-edu/public/tree/master/subjects/rot13)
 4. - [Lastword](https://github.com/01-edu/public/tree/master/subjects/lastword)
 5. - [Reduceint](https://github.com/01-edu/public/tree/master/subjects/reduceint)
