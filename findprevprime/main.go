@@ -10,7 +10,7 @@ func main() {
 }
 
 func FindPrevPrime(nb int) int {
-	if checkPrime(nb) {
+	if checkPrime(nb) || nb == 0 {
 		return nb
 	}
 	if !checkPrime(nb) {
