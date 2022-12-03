@@ -41,7 +41,7 @@ Exercises for preparing exam in Go language
 3. - [Union](https://github.com/01-edu/public/tree/master/subjects/union)
 4. - [Inter](https://github.com/01-edu/public/tree/master/subjects/inter)
 5. - [Printbits](https://github.com/01-edu/public/tree/master/subjects/printbits) Not working
-6. - []()
+6. - [Piglatin](https://github.com/01-edu/public/tree/master/subjects/piglatin)
 
 ### 6 (middle)
 1. - [Repeatalpha](https://github.com/01-edu/public/tree/master/subjects/repeatalpha)
