@@ -21,6 +21,23 @@ func main() {
 	Printer(result)
 }
 
+func checkConstant(word []byte) bool {
+	var vowel bool
+	for _, b := range word {
+		if checkVowel(b) {
+			vowel = true
+		}
+	}
+	return vowel
+}
+
+func Printer(s string) {
+	for _, i := range s {
+		z01.PrintRune(i)
+	}
+	z01.PrintRune(10)
+}
+
 func pushConsonant(word []byte, size int) []byte {
 	for i, b := range word {
 		if !checkVowel(b) {
@@ -38,23 +55,6 @@ func addAy(word []byte) []byte {
 		word = append(word, 'a', 'y')
 	}
 	return word
-}
-
-func Printer(s string) {
-	for _, i := range s {
-		z01.PrintRune(i)
-	}
-	z01.PrintRune(10)
-}
-
-func checkConstant(word []byte) bool {
-	var vowel bool
-	for _, b := range word {
-		if checkVowel(b) {
-			vowel = true
-		}
-	}
-	return vowel
 }
 
 func checkVowel(b byte) bool {
