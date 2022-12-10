@@ -52,4 +52,4 @@ Exercises for preparing exam in Go language
 
 ### 7 (hard)
 1. - [Hiddenp](https://github.com/01-edu/public/tree/master/subjects/hiddenp)
-2. - []()
+2. - [Split](https://github.com/01-edu/public/tree/master/subjects/split)
