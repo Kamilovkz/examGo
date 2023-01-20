@@ -7,17 +7,17 @@ import (
 )
 
 func main() {
-	arg := os.Args[1:]
 	if len(os.Args) != 2 {
 		return
 	}
-	for _, word := range arg[0] {
-		if word >= 'a' && word <= 'n' || word >= 'A' && word <= 'N' {
-			z01.PrintRune(word + 13)
-		} else if word >= 'm' && word <= 'z' || word >= 'M' && word <= 'Z' {
-			z01.PrintRune(word - 13)
+	word := os.Args[1]
+	for i := 0; i < len(word); i++ {
+		if word[i] >= 'a' && word[i] <= 'm' || word[i] >= 'A' && word[i] <= 'M' {
+			z01.PrintRune(rune(word[i]) + 13)
+		} else if word[i] >= 'n' && word[i] <= 'z' || word[i] >= 'N' && word[i] <= 'Z' {
+			z01.PrintRune(rune(word[i]) - 13)
 		} else {
-			z01.PrintRune(word)
+			z01.PrintRune(rune(word[i]))
 		}
 	}
 	z01.PrintRune('\n')

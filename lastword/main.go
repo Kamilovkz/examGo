@@ -7,24 +7,24 @@ import (
 )
 
 func main() {
-	arg := os.Args[1:]
-	if len(arg) != 1 {
+	args := os.Args[1:]
+	if len(args) != 1 {
 		return
-	}
-	res := ""
-	for i := len(arg[0]) - 1; i >= 0; i-- {
-		if arg[0][i] != ' ' {
-			res = string(arg[0][i]) + res
+	} else {
+		res := ""
+		for i := len(args[0]) - 1; i >= 0; i-- {
+			if args[0][i] != ' ' {
+				res = string(args[0][i]) + res
+			} else if args[0][i] == ' ' && res != "" {
+				break
+			}
 		}
-		if res != "" && arg[0][i] == ' ' {
-			break
+		if res == "" {
+			return
 		}
-	}
-	if res == "" {
-		return
-	}
-	for _, v := range res {
-		z01.PrintRune(v)
+		for _, i := range res {
+			z01.PrintRune(i)
+		}
 	}
 	z01.PrintRune('\n')
 }
