@@ -13,6 +13,5 @@ func main() {
 
 func LastRune(s string) rune {
 	word := []rune(s)
-	last := word[len(word)-1]
-	return rune(last)
+	return word[len(s)-1]
 }

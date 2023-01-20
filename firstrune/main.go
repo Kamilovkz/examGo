@@ -13,6 +13,5 @@ func main() {
 
 func FirstRune(s string) rune {
 	word := []rune(s)
-	first := word[0]
-	return rune(first)
+	return word[0]
 }
