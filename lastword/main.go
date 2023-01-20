@@ -7,24 +7,23 @@ import (
 )
 
 func main() {
-	args := os.Args[1:]
-	if len(args) != 1 {
+	if len(os.Args) != 2 {
 		return
-	} else {
-		res := ""
-		for i := len(args[0]) - 1; i >= 0; i-- {
-			if args[0][i] != ' ' {
-				res = string(args[0][i]) + res
-			} else if args[0][i] == ' ' && res != "" {
-				break
-			}
+	}
+	word := os.Args[1]
+	res := ""
+	for i := len(word) - 1; i >= 0; i-- {
+		if word[i] != ' ' {
+			res = string(word[i]) + res
+		} else if word[i] == ' ' && res != "" {
+			break
 		}
-		if res == "" {
-			return
-		}
-		for _, i := range res {
-			z01.PrintRune(i)
-		}
+	}
+	if res == "" {
+		return
+	}
+	for _, d := range res {
+		z01.PrintRune(d)
 	}
 	z01.PrintRune('\n')
 }
