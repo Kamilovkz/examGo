@@ -12,14 +12,5 @@ func main() {
 // Our program here
 
 func StrLen(s string) int {
-	var length int
-	for i := 0; i < len(s); i++ {
-		length += 1
-	}
-	return length
+	return len([]rune(s))
 }
-
-// OR
-// func StrLen(s string) int {
-// return len(s)
-// }
