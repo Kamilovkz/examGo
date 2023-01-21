@@ -16,8 +16,8 @@ func main() {
 		z01.PrintRune(' ')
 		z01.PrintRune('x')
 		z01.PrintRune(' ')
-		for _, i := range os.Args[1] {
-			z01.PrintRune(i)
+		for _, d := range os.Args[1] {
+			z01.PrintRune(d)
 		}
 		z01.PrintRune(' ')
 		z01.PrintRune('=')
@@ -35,7 +35,7 @@ func printAtoi(s string, r rune) {
 		result = append(result, rune(res%10+48))
 		res /= 10
 	}
-	for d := len(result) - 1; d >= 0; d-- {
-		z01.PrintRune(result[d])
+	for i := len(result) - 1; i >= 0; i-- {
+		z01.PrintRune(result[i])
 	}
 }
