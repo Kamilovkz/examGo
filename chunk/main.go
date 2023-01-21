@@ -18,12 +18,11 @@ func Chunk(slice []int, size int) {
 		fmt.Println(slice)
 		return
 	}
-	var new_array [][]int
+	var result [][]int
 	for len(slice) > size {
-		new_array = append(new_array, slice[:size])
+		result = append(result, slice[:size])
 		slice = slice[size:]
 	}
-	new_array = append(new_array, slice)
-	fmt.Println(new_array)
-
+	result = append(result, slice)
+	fmt.Println(result)
 }

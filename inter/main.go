@@ -18,15 +18,15 @@ func main() {
 			}
 		}
 	}
-	for _, word := range result {
-		z01.PrintRune(word)
+	for _, d := range result {
+		z01.PrintRune(d)
 	}
 	z01.PrintRune('\n')
 }
 
 func double(s string, r rune) bool {
-	for _, word := range s {
-		if word == r {
+	for _, d := range s {
+		if d == r {
 			return true
 		}
 	}

@@ -7,20 +7,23 @@ import (
 )
 
 func main() {
-	arg := os.Args[1:]
-	if len(arg) != 3 {
+	if len(os.Args) != 4 {
 		return
 	}
-	for _, word := range arg[0] {
-		for _, word1 := range arg[1] {
-			for _, word2 := range arg[2] {
-				if word == word1 {
-					word = word2
+	words := os.Args[1:]
+	for _, word1 := range words[0] {
+		for _, word2 := range words[1] {
+			for _, word3 := range words[2] {
+				if word1 == word2 {
+					word1 = word3
 				}
 			}
 		}
-		z01.PrintRune(word)
 	}
-
+	for _, d := range words[0] {
+		z01.PrintRune(d)
+	}
 	z01.PrintRune('\n')
 }
+
+// go run . "hallo thara" "a" "e"

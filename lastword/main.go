@@ -10,8 +10,8 @@ func main() {
 	if len(os.Args) != 2 {
 		return
 	}
-	word := os.Args[1]
 	res := ""
+	word := os.Args[1]
 	for i := len(word) - 1; i >= 0; i-- {
 		if word[i] != ' ' {
 			res = string(word[i]) + res
