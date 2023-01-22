@@ -10,28 +10,50 @@ func main() {
 }
 
 func FindPrevPrime(nb int) int {
-	if checkPrime(nb) || nb == 0 {
-		return nb
+	if nb < 2 {
+		return 0
 	}
-	if !checkPrime(nb) {
-		for {
-			nb--
-			if checkPrime(nb) {
-				return nb
-			}
+	for nb > 1 {
+		if check(nb) {
+			break
 		}
+		nb--
 	}
 	return nb
 }
 
-func checkPrime(nb int) bool {
-	if nb <= 1 && nb != 0 {
-		return false
-	}
-	for i := 2; i < nb; i++ {
+func check(nb int) bool {
+	for i := 2; i <= nb/2; i++ {
 		if nb%i == 0 {
 			return false
 		}
 	}
 	return true
 }
+
+// func FindPrevPrime(nb int) int {
+// 	if checkPrime(nb) || nb == 0 {
+// 		return nb
+// 	}
+// 	if !checkPrime(nb) {
+// 		for {
+// 			nb--
+// 			if checkPrime(nb) {
+// 				return nb
+// 			}
+// 		}
+// 	}
+// 	return nb
+// }
+
+// func checkPrime(nb int) bool {
+// 	if nb <= 1 && nb != 0 {
+// 		return false
+// 	}
+// 	for i := 2; i < nb; i++ {
+// 		if nb%i == 0 {
+// 			return false
+// 		}
+// 	}
+// 	return true
+// }
