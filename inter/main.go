@@ -12,8 +12,8 @@ func main() {
 	}
 	var result string
 	for _, i := range os.Args[1] {
-		for _, j := range os.Args[2] {
-			if i == j && !double(result, i) {
+		for _, d := range os.Args[2] {
+			if i == d && !check(result, i) {
 				result += string(i)
 			}
 		}
@@ -24,7 +24,7 @@ func main() {
 	z01.PrintRune('\n')
 }
 
-func double(s string, r rune) bool {
+func check(s string, r rune) bool {
 	for _, d := range s {
 		if d == r {
 			return true

@@ -10,13 +10,14 @@ func main() {
 	if len(os.Args) != 2 {
 		return
 	}
-	for _, word := range os.Args[1] {
-		if word >= 'a' && word <= 'z' {
-			word = 'a' + 'z' - word
-		} else if word >= 'A' && word <= 'Z' {
-			word = 'A' + 'Z' - word
+	for _, d := range os.Args[1] {
+		if d >= 'a' && d <= 'z' {
+			z01.PrintRune('a' + 'z' - d)
+		} else if d >= 'A' && d <= 'Z' {
+			z01.PrintRune('A' + 'Z' - d)
+		} else {
+			z01.PrintRune(d)
 		}
-		z01.PrintRune(word)
 	}
 	z01.PrintRune('\n')
 }
