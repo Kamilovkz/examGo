@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 
 	"github.com/01-edu/z01"
 )
@@ -31,12 +30,28 @@ func main() {
 }
 
 func FoldInt(f func(int, int) int, a []int, n int) {
-	var result int = n
 	for i := 0; i < len(a); i++ {
-		result = f(result, a[i])
+		n = f(n, a[i])
 	}
-	for _, ch := range strconv.Itoa(result) {
-		z01.PrintRune(ch)
+	for _, d := range Itoa(n) {
+		z01.PrintRune(d)
 	}
-	z01.PrintRune(10)
+	z01.PrintRune('\n')
+}
+
+func Itoa(n int) string {
+	neg := ""
+	str := ""
+	if n < 0 {
+		neg = "-"
+		n = -n
+	} else if n == 0 {
+		z01.PrintRune('0')
+	} else {
+		for n > 0 {
+			str = string(rune(n%10+48)) + str
+			n /= 10
+		}
+	}
+	return neg + str
 }
