@@ -40,7 +40,7 @@ Exercises for preparing exam in Go language
 2. - [Ispowerof2](https://github.com/01-edu/public/tree/master/subjects/ispowerof2)
 3. - [Union](https://github.com/01-edu/public/tree/master/subjects/union)
 4. - [Inter](https://github.com/01-edu/public/tree/master/subjects/inter)
-5. - [Printbits](https://github.com/01-edu/public/tree/master/subjects/printbits) Not working
+5. - [Printbits](https://github.com/01-edu/public/tree/master/subjects/printbits)
 6. - [Piglatin](https://github.com/01-edu/public/tree/master/subjects/piglatin)
 7. - [Reversebits](https://github.com/01-edu/public/tree/master/subjects/reversebits)
 
