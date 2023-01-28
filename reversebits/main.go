@@ -2,10 +2,9 @@ package main
 
 func ReverseBits(oct byte) byte {
 	var res byte
-	for i := 0; i < 8; i++ {
-		if oct&(1<<i) != 0 {
-			res |= 1 << (7 - i)
-		}
+	for i := 8; i > 0; i-- {
+		res = (res << 1) | (oct & 1)
+		oct >>= 1
 	}
 	return res
 }

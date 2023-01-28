@@ -31,4 +31,5 @@ func ReduceInt(a []int, f func(int, int) int) {
 		z01.PrintRune(d)
 	}
 	z01.PrintRune('\n')
+
 }
