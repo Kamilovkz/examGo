@@ -1,30 +1,34 @@
 package main
 
 import (
-	"os"
+	"strconv"
 
 	"github.com/01-edu/z01"
 )
 
 func main() {
-	if len(os.Args) != 2 {
-		return
+	mul := func(acc int, cur int) int {
+		return acc * cur
 	}
-	arg := os.Args[1:]
-	res := ""
-	for i := len(arg[0]) - 1; i >= 0; i-- {
-		if arg[0][i] != ' ' {
-			res = string(arg[0][i]) + res
-		}
-		if res != "" && arg[0][i] == ' ' {
-			break
-		}
+	sum := func(acc int, cur int) int {
+		return acc + cur
 	}
-	if res == "" {
-		return
+	div := func(acc int, cur int) int {
+		return acc / cur
 	}
-	for _, word := range res {
-		z01.PrintRune(word)
+	as := []int{500, 2}
+	ReduceInt(as, mul)
+	ReduceInt(as, sum)
+	ReduceInt(as, div)
+}
+
+func ReduceInt(a []int, f func(int, int) int) {
+	result := a[0]
+	for i := 1; i < len(a); i++ {
+		result = f(result, a[i])
 	}
-	z01.PrintRune(10)
+	for _, i := range strconv.Itoa(result) {
+		z01.PrintRune(i)
+	}
+	z01.PrintRune('\n')
 }
