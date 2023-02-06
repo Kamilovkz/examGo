@@ -54,4 +54,3 @@ Exercises for preparing exam in Go language
 1. - [Hiddenp](https://github.com/01-edu/public/tree/master/subjects/hiddenp)
 2. - [Split](https://github.com/01-edu/public/tree/master/subjects/split)
 3. - [Revwstr](https://github.com/01-edu/public/tree/master/subjects/revwstr)
-4. - []
